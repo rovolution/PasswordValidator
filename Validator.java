@@ -4,7 +4,8 @@ import java.util.*;
  * 
  * Validator is used to check whether a given password is valid or not
  * 
- * A passwords validity is determined by 
+ * A passwords validity is determined by whether it passes the user specified 
+ * minimum # of rules
  */
 public class Validator {
 	/*

@@ -10,14 +10,15 @@ public class Test{
 		int rulesToPass = 0;
 		BufferedReader keyboard;
 
+		//Read in user input from keyboard
+		keyboard = new BufferedReader(new InputStreamReader(System.in)); 
+		
 		//Read in password from command line
 		System.out.println("Enter in Password: ");
-		keyboard = new BufferedReader(new InputStreamReader(System.in)); 
 		passwordInput = keyboard.readLine();
 		
 		//Read in number of rules to pass from command line
 		System.out.println("Enter in minimum number of rules to pass: ");
-		keyboard = new BufferedReader(new InputStreamReader(System.in)); 
 		rulesToPass = Integer.parseInt(keyboard.readLine());
 					
 		//Use a Validator object to check whether the given password is valid or not
