@@ -1,0 +1,28 @@
+####################################
+####################################
+Rohit Kalkur
+
+Rally Software Programming Question
+
+Password-Validator
+####################################
+####################################
+
+FILES:
+
+
+HOW TO RUN:
+To run the program, compile all files
+and then run Test.
+
+
+DESCRIPTION:
+Validator is the object that validates passwords.
+
+Passwords are validated using Rules.
+
+Test is used to test the Validator.
+
+Rule is an interface and each specific rule implements
+that interface.
+
